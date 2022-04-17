@@ -1,0 +1,21 @@
+{
+  "name": "sims-random-rooms",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Schrotty",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.0",
+    "parcel": "^2.4.1",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "inter-ui": "^3.19.3"
+  }
+}
