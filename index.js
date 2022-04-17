@@ -1,2 +1,2 @@
-function f(){const t=parseInt(document.getElementById("min-x").value),e=parseFloat(document.getElementById("max-x").value),a=Math.floor(Math.random()*(e-t+1))+t,o=Math.floor(Math.random()*(e-t+1))+t;alert(String("Your room has the size: "+a+"x"+o))}
-//# sourceMappingURL=index.a4a17d7e.js.map
+function random_room(){const e=document.getElementById("measurements"),t=document.getElementById("cheatcode"),n=document.getElementById("money"),o=parseInt(document.getElementById("min-x").value),m=parseFloat(document.getElementById("max-x").value),a=parseInt(document.getElementById("money-min").value),d=parseInt(document.getElementById("money-max").value),r=Math.floor(Math.random()*(m-o+1))+o,l=Math.floor(Math.random()*(m-o+1))+o,u=Math.floor(Math.random()*(d-a+1))+a;e.textContent=String(r+"x"+l+"m"),n.textContent=String(u+"§"),t.textContent=String("Money "+u)}
+//# sourceMappingURL=index.d5698a1e.js.map
